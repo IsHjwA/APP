@@ -31,7 +31,7 @@ export function login(data) {
 // 获取首页为你推荐的商品列表
 export function getHotGoodList(params) {
   return fetch({
-    url: '/jd/getHotGoodList',
+    url: '/goods/goodList',
     method: 'GET',
     params
   })

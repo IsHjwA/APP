@@ -5,7 +5,7 @@ import { Toast } from 'vant'
 // let baseURL_dev = 'https://cnodejs.org/api/v1'  // 开发环境
 
 // 周杰伦音乐列表
-let baseURL_dev = 'http://localhost:8888'  // 解决跨域问题
+let baseURL_dev = 'http://localhost:3333'  // 解决跨域问题
 
 // let baseURL_pro = ''  // 公司域名
 // let baseURL_test = '' // 内网地址

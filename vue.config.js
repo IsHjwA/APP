@@ -3,7 +3,7 @@
 // node.js代码风格
 module.exports = {
   devServer: {
-    port: 8888,
+    port: 3333,
     proxy: {
       // 代理，转发
       // 当请求URL中包含 '/soso' 字符串时，才执行代理转发
@@ -12,13 +12,13 @@ module.exports = {
         ws: true,
         changeOrigin: true
       },
-      '/user': {
-        target: 'http://localhost:9999',
-        ws: true,
-        changeOrigin: true
-      },
-      '/jd': {
-        target: 'http://localhost:9999',
+      // '/goodList': {
+      //   target: 'http://localhost:3000',
+      //   ws: true,
+      //   changeOrigin: true
+      // },
+      '/goods': {
+        target: 'http://localhost:3000',
         ws: true,
         changeOrigin: true
       }
